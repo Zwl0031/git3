@@ -1,0 +1,41 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# Secrets & local config
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs & temp
+*.log
+logs/
+tmp/
+temp/
+
+# Node.js
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
